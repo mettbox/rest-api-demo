@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 5
+  },
+  "mysql": "mysql://root:root@mysql:3306/rest_api_mysql"
+}

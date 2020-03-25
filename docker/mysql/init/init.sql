@@ -1,0 +1,5 @@
+CREATE DATABASE IF NOT EXISTS `rest_api_mysql` CHARACTER SET utf8 COLLATE 'utf8_general_ci';
+CREATE USER 'demo'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'demo'@'%';
+
+FLUSH PRIVILEGES ;
